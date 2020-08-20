@@ -35,6 +35,8 @@ module.exports = {
             template: './src/main/resources/static/index.html'
         })
     ],
+    // настройка сервера для запуска фронтенда отдельно от рабочего
+    // бэкенда
     devServer: {
         contentBase: path.join(__dirname, 'src/main/resources/static/dev'),
         compress: true,
